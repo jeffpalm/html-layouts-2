@@ -183,6 +183,12 @@ a:hover {
 .article-card-learn-link {
     position: absolute;
     bottom: 20px;
+    color: #3569a4;
+    font-size: .8rem;
+}
+
+.article-card-learn-link:after {
+    content: " →"
 }
 
 footer {
