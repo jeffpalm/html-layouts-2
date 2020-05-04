@@ -16,7 +16,7 @@ nav {
     top: 0;
     display: inline-flex;
     justify-content: center;
-    align-items: center;
+    align-items: baseline;
     z-index: 2;
     flex-wrap: wrap;
 }
@@ -42,7 +42,8 @@ a:hover {
 }
 
 .company-nav-container {
-    padding-left: 100px
+    padding-left: 100px;
+    padding-top: 30px;
 }
 
 .company-nav-links {
@@ -84,7 +85,6 @@ a:hover {
 .carousel-img-desc-link {
     text-decoration: none;
     color: white;
-    
     font-size: 2rem;
     font-weight: 700;
 }
@@ -154,7 +154,6 @@ a:hover {
     height: 1000px;
     justify-content: center;
     align-items: flex-start;
-    
 }
 
 .article-cards {
